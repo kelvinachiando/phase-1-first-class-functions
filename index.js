@@ -1,18 +1,14 @@
-function receivesAFunction (spy) {
-    spy()
+function receivesAFunction (callback) {
+    callback()
 }
 
 function returnsANamedFunction(){
-    function Run (){
-        
-    }
-    return (Run)
+    function play (){}
+       return play 
 
 }
 
 function returnsAnAnonymousFunction(){
-    return function () {
-
-    }
+    return function (){}
     
 }
